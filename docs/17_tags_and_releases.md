@@ -4,7 +4,7 @@ You may want to put tags or releases on certain commits in your code's history t
 
 ### Tags
 
-A tag is a pointer that points to a specific commit. Unlike commits, tags are _not_ immutable. They can be moved and changed. Let's practice a bit with tags.
+A tag is a pointer that points to a specific commit. Git tags are of two variants, an _annotated tag_ and a _lightweight tag_. An annotated tag is an immutable object unlike a lightweight tag which is mutable. Let's practice a bit with tags.
 
 Tags can be created locally with Git, or on GitHub. When creating a tag from the command line, it's recommended to create an "annotated" tag. The following example creates an annotated tag with the `-a` flag, names the tag `v1.0`, and connects it to whichever commit SHA is included.
 
@@ -26,7 +26,7 @@ Releases are a GitHub feature that allow you to add an executable to the tag for
 1. Under your repository name, click Releases.
 1. Click Draft a new release.
 1. Type a name for the tag. We recommend you use semantic versioning.
-1. Select a branch that contains the project you want to release. Usually, you'll want to release against your master branch, unless you're releasing beta software. You can also select a recent commit by choosing the recent commits tab.
+1. Select a branch that contains the project you want to release. Usually, you'll want to release against your main branch, unless you're releasing beta software. You can also select a recent commit by choosing the recent commits tab.
 1. Type a title and description that describes your release.
 1. If you're ready to publicize your release, click Publish release. Otherwise, click Save draft to work on it later.
 

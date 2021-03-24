@@ -1,6 +1,6 @@
 # GitHub Training Manual
 
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
 Welcome to the GitHub Training Manual repository. In this repository, you will find the content used by the [GitHub Professional Services](https://services.github.com/) team during our official GitHub training courses and the scripts used when teaching.
 
@@ -47,13 +47,7 @@ script/server
 
 Docsify doesn't currently support creating PDFs, but you can generate one using [GitBook legacy](https://docs.gitbook.com/resources/gitbook-legacy). We've tried to make this simple for you by creating [`script/generate-pdf`](script/generate-pdf).  The legacy version of GitBook is being shut down soon, but it still works.  You'll need to follow the installation instructions below to install GitBook.  The previous installation instructions on the GitBook site have been removed.
 
-## GitBook installation
-
-1. Install the GitBook CLI via NPM.
-
-   ```shell
-   npm install gitbook-cli -g
-   ```
+## GitBook dependency
 
 1. Download and install [Calibre](https://calibre-ebook.com/download).
 

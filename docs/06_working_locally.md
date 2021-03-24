@@ -21,14 +21,14 @@ Let's go ahead and clone the class repository to your local desktop.
 
 ### Our Favorite Git command: `git status`
 
-```sh
+```shell-session
 $ git status
-On branch master
-Your branch is up-to-date with 'origin/master'.
+On branch main
+Your branch is up-to-date with 'origin/main'.
 nothing to commit, working tree clean
 ```
 
-`git status` is a command you will use often to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch master, everything is up to date with origin/master and our working tree is clean.
+`git status` is a command you will use often to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up to date with origin/main and our working tree is clean.
 
 ### Using Branches locally
 
@@ -50,10 +50,10 @@ If you want to see all of the branches, including the read-only copies of your r
 ### Switching Branches
 
 ```sh
-git checkout <BRANCH-NAME>
+git switch <BRANCH-NAME>
 ```
 
-To checkout the branch you created online, type git checkout and the name of your branch. Git will provide a message that says you have been switched to the branch and it has been set up to track the same remote branch from origin.
+To switch the branch you created online, type `git switch` and the name of your branch. Git will provide a message that says you have been switched to the branch and it has been set up to track the same remote branch from origin.
 
 > You do not need to type `remotes/origin` in front of the branch - only the branch name. Typing `remotes/origin` in front of the branch name will put you in a detached HEAD state. We will learn more about that later, but for now just remember this is not a state we want to be in.
 
